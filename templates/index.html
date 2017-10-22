@@ -1,0 +1,50 @@
+$def with (form)
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hypebeast Scanner</title>
+		<link rel="stylesheet" type="text/css" href="static/style.css">
+		 <link rel="icon" href="static/icon.png">
+	</head>
+	<body>
+	<div>
+ 	  <div class="banner">
+		<a href="http://0.0.0.0:8080/">
+		<img src="static/banner.png" width ="100%">
+			
+		</a>
+	  </div>
+	</div>
+	  <div class="header">	
+		<h2>Welcome to the hypebeast scanner!</h2>
+	  </div>
+	<div class="aligncenter">	
+		<p>Choose a filename to see how hype your photo is (or use camera.jpg if you just took a photo). Made with webpy and the Google Cloud API. 
+</p>
+<p>Special thanks to Todd Howard (it just works), and Ari who brought everyone burgers.</p>
+	  </div>
+	<div class="header">	
+		<p>Scoring works like this:</p>
+		<h3>
+0 = are you even trying? <br />
+1-499 = junior hypeman <br />
+500-899 = hypey <br />
+900-1299 = hypebeast <br />
+1300+ = hype god
+		</h3>
+	  </div>
+
+
+
+		
+		<form name="main" method="get">
+		<div>
+ 		$:form.render()
+		</div>
+		
+		<input type="submit" value="Submit"/>    </form>
+	
+	</body>
+</html>
+
+

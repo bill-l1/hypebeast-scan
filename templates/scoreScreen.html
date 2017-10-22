@@ -1,0 +1,44 @@
+$def with (scoreList, URL)
+<html>
+	<head>
+		<title>Hypebeast Scanner</title>
+		<link rel="stylesheet" type="text/css" href="static/style.css">
+		<link rel="icon" href="static/icon.png">
+	</head>
+	<body>
+	<div>
+ 	  <div class="logo">
+		<a href="http://0.0.0.0:8080/">
+		<img src="static/banner.png" width ="100%">
+		</a>
+	  </div>
+		<br /><br /><br />
+		<div class= "alignleft"> 
+			Hypebeast URL: $URL
+		</div>
+		<div class= "hypepic"> 
+			<img src="static/pics/$URL" width=60%>
+		</div>
+		$if len(scoreList[0]) > 0:
+			<div class="alignrightsubheader">tag bonuses:</div>
+			$for score in scoreList[0]:
+			<span class="alignright">'$score'</span><span class="alignrightright">+$scoreList[0][score]</span> <br />
+		$if len(scoreList[1]) > 0:	
+			<div class="alignrightsubheader">brand bonuses:</div>	
+			$for score in scoreList[1]:
+			<span class="alignright">'$score'</span><span class="alignrightright">+$scoreList[1][score]</span> <br />
+		<div class="alignrightsubheader">
+			<br />
+			total score:
+		</div>
+		<div class="alignrightbig">
+			$scoreList[2]
+		</div>
+		<div class="alignrightsubsubheader">
+			$scoreList[3]
+		</div>
+	</div>
+	</body>
+</html>
+
+

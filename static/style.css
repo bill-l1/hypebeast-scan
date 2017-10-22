@@ -1,0 +1,102 @@
+body {
+	background-image: url("scrollback.jpg");
+	background-size: cover;
+	color: white;
+	font-size: large;
+	font-family: "Helvetica";
+}
+.banner {
+	width: 100%;
+	
+	
+}
+
+
+.header {
+	text-align:center;
+	font-size: 250%;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.alignleft {
+
+	text-align:left;
+	margin-left: 3%;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.alignright {
+
+	text-align:left;
+	margin-left: 70%;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.aligncenter {
+
+	text-align:center;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.alignrightsubheader {
+
+	text-align:left;
+	margin-left: 70%;
+	font-size: 200%;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+.alignrightbig {
+
+	text-align:right;
+	margin-right: 12.5%;
+	font-size: 300%;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.alignrightsubsubheader {
+
+	text-align:left;
+	margin-left: 70%;
+	font-size: 270%;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.alignrightright {
+	float:right;
+	margin-right: 3%;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.hypepic {
+	position:absolute;
+	text-align:left;
+	padding = 40px;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	
+
+}
+
+input[type=submit] {
+	margin-left: 45%;
+	width: 10%;
+	height: 40px;
+
+}
+
+input[type=text] {
+	position: absolute;
+	width: 30%;
+	height: 30px;
+
+}
+
+label {
+	margin-left:40%
+	visibility:hidden;
+}
+
+#fileName {
+	text-align:center;
+
+}
+
